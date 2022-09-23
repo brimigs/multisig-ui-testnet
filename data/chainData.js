@@ -1,6 +1,6 @@
 export const chainData = [
     {
-        chain_id: "osmosis-1",
+        chain_id: "osmo-test-4",
         denom: "uosmo",
         base_denom: {
             "denom": "uosmo",
@@ -9,14 +9,14 @@ export const chainData = [
         name: "osmosis",
         prefix: "osmo",
         color: "linear-gradient(270.1deg, #5E12A0 0%, #390368 100%)",
-        rpc: "https://rpc-osmosis-ia.cosmosia.notional.ventures/",
+        rpc: "https://rpc-test.osmosis.zone",
         api: "https://osmosis-api.polkachu.com/",
-        explorer: "https://www.mintscan.io/osmosis/",
-        txExplorer: "https://www.mintscan.io/osmosis/txs/",
-        valExplorer: "https://www.mintscan.io/osmosis/validators/",
-        govExplorer: "https://www.mintscan.io/osmosis/proposals/",
+        explorer: "https://www.https://testnet.mintscan.io/osmosis-testnet",
+        txExplorer: "https://testnet.mintscan.io/osmosis-testnet/validators/tx",
+        valExplorer: "https://testnet.mintscan.io/osmosis-testnet/validators",
+        govExplorer: "https://testnet.mintscan.io/osmosis-testnet/proposals",
         logo: "/images/logo/osmosis.png",
-        hyperLink: "https://osmosis.zone/"
+        hyperLink: "https://testnet.osmosis.zone/"
     },
     {
         chain_id: "juno-1",
